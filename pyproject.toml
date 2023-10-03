@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "joao"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.1.1"
+plotly = "^5.17.0"
+streamlit = "^1.27.1"
+plotly-express = "^0.4.1"
+nbformat = "^5.9.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
